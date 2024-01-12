@@ -1,0 +1,10 @@
+ [rejected]        main -> main (non-fast-forward)
+
+Primeiro eu retirei os arquivos da pasta local para deixa-la vazia.
+Depois:
+git pull origin main
+git add .
+git commit
+git push -u origin main
+
+
