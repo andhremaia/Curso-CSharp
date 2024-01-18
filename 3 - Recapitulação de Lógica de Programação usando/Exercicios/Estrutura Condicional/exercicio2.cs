@@ -7,9 +7,9 @@
             Console.WriteLine("Digite um número inteiro: ");
             int a = int.Parse(Console.ReadLine()!);
 
-            if (a == 0 || a % 2 == 0)
+            if (a % 2 == 0)
                 Console.WriteLine("Par");
-            else if (a % 2 == 0)
+            else 
                 Console.WriteLine("Impar");
         }
     }

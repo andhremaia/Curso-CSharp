@@ -8,9 +8,7 @@ namespace ConsoleApp1
             int a = int.Parse(Console.ReadLine()!);
 
             if (a > 0)
-                Console.WriteLine("Positivo");
-            else if (a < 0)
-                Console.WriteLine("Negativo");
+                Console.WriteLine("Positivo");            
             else
                 Console.WriteLine("Não negativo");
         }
