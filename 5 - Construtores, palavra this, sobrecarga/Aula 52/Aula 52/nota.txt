@@ -1,0 +1,10 @@
+﻿Nessa aula foi demonstrado como os construtores funcionam.
+Construtor é uma classe que é executada quando um objeto é criado.
+Ele aloca espaço na memória para criar a estrutura do objeto e seus atributos.
+Atributos numéricos sao, por padrão, inicializados com o valor zero para atributos numéricos e com valor null quando o 
+atributo for literal.
+Um construtor padrão é uma classe executada quando nenhum outro construtor é especificado pelo programador.
+Ou seja, se o programador não declarar um construtor customizado o compilador vai disponibilizar um construtor 
+padrão que poderá ser usado mesmo que ele não tenha sido declarado na sua classe.
+Agora, quando um construtor personalizado é criado pelo programador, o construtor padrão não pode mais ser usado para instanciar
+um objeto um objeto a menos que ele seja declarado dentro da próprio classe.
